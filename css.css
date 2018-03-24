@@ -17,9 +17,9 @@ body {
 	z-index: 2;
 	position:absolute;
 	margin:80px auto;
-	width:130px;
+	width:105px;
 	left: 50%;
-	margin-top:155px;
+	margin-top:120px;
     transform: translate(-50%, -50%);
 }
 
@@ -29,7 +29,7 @@ body {
 	text-align:center;
 	z-index: 2;
     left: 50%;
-	margin-top:60px;
+	margin-top:40px;
     transform: translate(-50%, -50%);
 	font-family: 'Luckiest Guy', cursive;
 	font-size:30px;
@@ -42,7 +42,7 @@ body {
 	color:white;
 	font-family: 'Luckiest Guy', cursive;
 	left: 50%;
-	margin-top:230px;
+	margin-top:240px;
     transform: translate(-50%, -50%);
 }
 
@@ -54,6 +54,17 @@ body {
 	font-family: 'Luckiest Guy', cursive;
 	left: 50%;
 	margin-top:400px;
+    transform: translate(-50%, -50%);
+}
+
+#txtsh {
+	 position: absolute;
+	z-index: 2;
+	font-size:21px;
+	color:#B448F0;
+	font-family: 'Luckiest Guy', cursive;
+	left: 50%;
+	margin-top:190px;
     transform: translate(-50%, -50%);
 }
 
@@ -70,7 +81,7 @@ body {
 
 #button {
 	position: absolute;
-	margin-top:300px;
+	margin-top:310px;
     left: 50%;
     transform: translate(-50%, -50%);
 	z-index: 2;
