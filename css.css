@@ -1,0 +1,140 @@
+body {
+	margin:0;
+	height: 100%; 
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	display:block;
+	  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+#logo {
+	z-index: 2;
+	position:absolute;
+	margin:80px auto;
+	width:130px;
+	left: 50%;
+	margin-top:155px;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+	color:white;
+    position: absolute;
+	text-align:center;
+	z-index: 2;
+    left: 50%;
+	margin-top:60px;
+    transform: translate(-50%, -50%);
+	font-family: 'Luckiest Guy', cursive;
+	font-size:30px;
+}
+
+#am {
+	 position: absolute;
+	z-index: 2;
+	font-size:25px;
+	color:white;
+	font-family: 'Luckiest Guy', cursive;
+	left: 50%;
+	margin-top:230px;
+    transform: translate(-50%, -50%);
+}
+
+#txtam {
+	 position: absolute;
+	z-index: 2;
+	font-size:22px;
+	color:white;
+	font-family: 'Luckiest Guy', cursive;
+	left: 50%;
+	margin-top:400px;
+    transform: translate(-50%, -50%);
+}
+
+#txtget {
+	 position: absolute;
+	z-index: 2;
+	font-size:14px;
+	color:white;
+	font-family: 'Luckiest Guy', cursive;
+	left: 50%;
+	margin-top:540px;
+    transform: translate(-50%, -50%);
+}
+
+#button {
+	position: absolute;
+	margin-top:300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	z-index: 2;
+	padding:15px;
+	font-size:25px;
+	color:white;
+	font-family: 'Luckiest Guy', cursive;
+	background-color:#B448F0;
+	cursor: pointer;
+}
+
+#get {
+	position: absolute;
+	margin-top:480px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	z-index: 2;
+	padding:5px;
+	font-size:25px;
+	color:white;
+	font-family: 'Luckiest Guy', cursive;
+	background-color:#2AC9FA;
+	cursor: pointer;
+}
+
+#get:hover {
+	background-color: #F9E36E
+	}
+
+#get:active {
+  background-color: #F9E36E;
+}
+
+#bg {
+	width:100%;
+	overflow:hidden;
+	display:block;
+	  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+	}
+
+#bgm {
+	display:none;
+	  -webkit-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -o-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter: blur(7px);
+}
+
+/* mobile */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+#bg {
+	display:none;
+}	
+
+	#bgm {
+	position: fixed;
+	height:100%;
+	overflow:hidden;
+	display:block;
+}
+}
