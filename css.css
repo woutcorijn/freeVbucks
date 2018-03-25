@@ -135,6 +135,16 @@ body {
   filter: blur(7px);
 }
 
+::-moz-selection { /* Code for Firefox */
+    background: white;
+    color:#F9E36E;
+}
+
+::selection {
+    background:black;
+    color:white;
+}
+
 /* mobile */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
