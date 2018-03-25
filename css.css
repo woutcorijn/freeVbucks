@@ -5,12 +5,6 @@ body {
 	position: relative;
 	text-align: center;
 	display:block;
-	  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
 }
 
 #logo {
@@ -34,81 +28,87 @@ body {
 	font-family: 'Luckiest Guy', cursive;
 	font-size:30px;
 }
+.layout {
+	position: absolute;
+	z-index: 2;
+	font-family: 'Luckiest Guy', cursive;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 #am {
-	 position: absolute;
-	z-index: 2;
 	font-size:25px;
 	color:white;
-	font-family: 'Luckiest Guy', cursive;
-	left: 50%;
 	margin-top:240px;
-    transform: translate(-50%, -50%);
 }
 
-#txtam {
-	 position: absolute;
-	z-index: 2;
+#txtam {	 
 	font-size:22px;
 	color:white;
-	font-family: 'Luckiest Guy', cursive;
-	left: 50%;
 	margin-top:400px;
-    transform: translate(-50%, -50%);
 }
 
-#txtsh {
-	 position: absolute;
-	z-index: 2;
-	font-size:21px;
-	color:#B448F0;
-	font-family: 'Luckiest Guy', cursive;
-	left: 50%;
-	margin-top:190px;
-    transform: translate(-50%, -50%);
+#share {
+	font-size:19px;
+	color:white;
+	margin-top:195px;
+	cursor: pointer;
+	border-style:solid;
+	border-width:1px;
+	border-radius: 20px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#2AC9FA;
+	border-color:#2AC9FA;
 }
 
 #txtget {
-	 position: absolute;
-	z-index: 2;
 	font-size:14px;
 	color:white;
-	font-family: 'Luckiest Guy', cursive;
-	left: 50%;
 	margin-top:540px;
-    transform: translate(-50%, -50%);
+}
+
+#shtxt {
+	font-size:22px;
+	color:white;
+	margin-top:250px;
+}
+
+#shlink {
+	font-size:22px;
+	color:white;
+	margin-top:350px;
+	background-color:2AC9FA;
+	font-family:arial;
+	padding:10px;
 }
 
 #button {
-	position: absolute;
+		  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 	margin-top:310px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	z-index: 2;
 	padding:15px;
 	font-size:25px;
 	color:white;
-	font-family: 'Luckiest Guy', cursive;
 	background-color:#B448F0;
 	cursor: pointer;
 }
 
 #get {
-	position: absolute;
 	margin-top:480px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	z-index: 2;
 	padding:5px;
 	font-size:25px;
 	color:white;
-	font-family: 'Luckiest Guy', cursive;
-	background-color:#2AC9FA;
+	background-color:E98F5C;
 	cursor: pointer;
 }
 
 #get:hover {
-	background-color: #F9E36E
+	background-color: #F9E36E;
 	}
 
 #get:active {
