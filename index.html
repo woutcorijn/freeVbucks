@@ -1,28 +1,34 @@
+<html>
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97831800-6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97831800-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-97831800-6');
-</script>
-<link rel="icon" href="images/favicon.png">
-<link rel="stylesheet" type="text/css" href="css.css">
-<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-<title>V Bucks for Clicks</title>
-<script src="js.js"></script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-97831800-6');
+  </script>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>V Bucks for Clicks</title>
+  <script src="js.js"></script>
 </head>
+
 <body>
-<p id="title">V-Bucks for Clicks</p>
-<img id="logo" src="images/logo.png"></img>
-<p id="am" class="layout">Amount: 0</p>
-<a id="button" class="layout" onclick="press()">Press for<br> V-bucks +1</a>
-<p id="txtam" class="layout">1000 V-bucks = 5.000 clicks</p>
-<a id="share" class="layout" onclick="share()">share = 500 bonus</a>
-<a id="get" class="layout" onclick="get()">Get V-bucks</a>
-<p id="txtget" class="layout">will be clickable when you have 5.000 clicks</p>
-<img id="bg" src="images/bg.jpg">
-<img id="bgm" src="images/bgm.jpg">
+  <p id="title">V-Bucks for Clicks</p>
+  <img id="logo" src="images/logo.png"></img>
+  <p id="am" class="layout">number of clicks: 0</p>
+  <a id="button" class="layout" onclick="press()">Press for<br> V-bucks +1</a>
+  <p id="txtam" class="layout">1000 V-bucks = 5.000 clicks</p>
+  <a id="share" class="layout" onclick="share()">share = 500 bonus</a>
+  <a id="get" class="layout" onclick="get()">Get V-bucks</a>
+  <p id="txtget" class="layout">will be clickable when you have 5.000 clicks</p>
+  <img id="bg" src="images/bg.jpg">
+  <img id="bgm" src="images/bgm.jpg">
 </body>
+</html>
